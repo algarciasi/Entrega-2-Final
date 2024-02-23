@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+#imagenes{
+    width: 70%;
+}
+
 td{
     text-align: center;
     margin: auto;
@@ -24,6 +28,12 @@ td{
     border: black 8px solid;
     width: 50px;
     height: 50px;
+}
+
+#hankschrader{
+    width: max-content;
+    height: max-content;
+ 
 }
 
 .tabla1{
@@ -38,7 +48,6 @@ td{
     margin: auto;
     border-collapse: collapse;
     border: black 8px solid;
-
 }
 
 #verde0{
