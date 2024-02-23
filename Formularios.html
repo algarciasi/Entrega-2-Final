@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Que comience el juego!</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="img/icon.png">
+</head>
+<body class="principal">
+    <p>Breaking Bad - Que comience el juego!</p>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="Breaking Bad - Que comience el juego!">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre: <input type="text" name="name" id="" placeholder="Indica tu nombre" required>
+                <br>
+                Apellidos: <input type="text" name="apellidos" id="" placeholder="Indica tus apellidos" required>
+                <br> 
+                Dirección Postal: 
+                <input type="text" name="calle" id="" placeholder="Calle">
+                <input type="text" name="Número" id="" placeholder="Número">
+                <input type="text" name="Piso" id="" placeholder="Piso">
+                <input type="text" name="ciudad" id="" placeholder="Ciudad">
+                <input type="text" name="DNI" id="" placeholder="DNI">
+                <input type="text" name="email" id="" placeholder="Correo eléctronico" required>
+                <br>
+                Sexo: <input type="checkbox" name="Hombre" id="">Hombre <input type="checkbox" name="Mujer" id="">Mujer
+                <br>
+                Fecha de nacimiento: <input type="date" name="" id="">
+                <br>
+                Selecciona una de las siguientes opciones:
+                <input list="desplegable">
+                <datalist id="desplegable">
+                    <option value="Jessie Pinkman"></option>
+                    <option value="Walter White"></option>
+                    <option value="Saul Goodman"></option>
+                    <option value="Gustavo Fring"></option>
+                    <option value="Pollos Hermanos"></option>
+                    <option value="Otros personajes"></option>
+                </datalist>
+                <br>
+                <br>Comentarios<br><textarea name="opiniones alumnos" id="" cols="30" rows="10" minlength="5" maxlength="25"
+                    placeholder="Escribe aqui lo que desees"></textarea>
+                <br>
+                Adjuntar archivos: <input type="file" name="adjunto" accept=".pdf, .jpg, .png, .zip, .rar" multiple>
+                <br>
+                Borrar: <input type="reset" value="Eliminar"> 
+                <br>
+                Enviar: <input type="submit" value="Enviar correo a Raul">
+                </form>
+            </fieldset>
+    </form>
+</body>
+</html>
