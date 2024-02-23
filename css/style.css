@@ -21,6 +21,32 @@
     width: 70%;
 }
 
+#imagenwalter{
+    object-position: 1px 0px;
+    width: 70%;
+}
+
+#imagenpistola{
+    object-position: -1px 0px;
+    width: 70%;
+}
+
+#imagencampana{
+    object-position: 0px 2px;
+    width: 70%;
+}
+
+#imagenTS{
+    object-position: 0px -5px;
+    width: 70%;
+}
+
+#hank{
+    background-size: cover;
+    background-position: center;
+
+}
+
 td{
     text-align: center;
     margin: auto;
@@ -30,11 +56,7 @@ td{
     height: 50px;
 }
 
-#hankschrader{
-    width: max-content;
-    height: max-content;
- 
-}
+
 
 .tabla1{
     text-align: center;
