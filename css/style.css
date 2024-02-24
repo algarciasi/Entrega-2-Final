@@ -22,7 +22,7 @@
 }
 
 #imagenwalter{
-    object-position: 1px 0px;
+    object-position: 2px 0px;
     width: 70%;
 }
 
@@ -42,9 +42,9 @@
 }
 
 #hank{
-    background-size: cover;
-    background-position: center;
-
+    text-align: center;
+    width: 50px;
+    height: 155px;
 }
 
 td{
@@ -74,42 +74,77 @@ td{
 
 #verde0{
     background-color: #EFF6CB;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
 }
 
 #verde1{
     background-color: #B8DA1C;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
 }
 
 #verde2{
     background-color: #D5E87D;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
 }
 
 #verde3{
     background-color: #89A419;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
 }
 
 #verde4{
     background-color: #637028;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
 }
 
 #verde5{
     background-color: #C5E14C;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
 }
 
 #verde6{
+    vertical-align: top;
     background-color: #83904B;
+    width: 50px;
+    height: 50px;
 }
 
 #verde7{
+    vertical-align: top;
     background-color: #C4C423;
+    width: 50px;
+    height: 50px;
+}
+
+#verde7b{
+    background-color: #C4C423;
+    width: 50px;
+    height: 50px;
 }
 
 #morado{
+    vertical-align: top;
     background-color: #AB8ECE;
+    width: 50px;
+    height: 50px;
 }
 
 #gris{
     background-color: #BCC49F;
+    width: 50px;
+    height: 50px;
 }
 
 #logo{
@@ -135,7 +170,7 @@ td{
 #minus{
     text-align: center;
     color: black;
-    font-size: 10px;
+    font-size: 9px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -168,4 +203,6 @@ h3{
 
 #columnas-negro{
     background-color: black;
+    width: 50px;
+    height: 50px;
 }
