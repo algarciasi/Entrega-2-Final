@@ -13,8 +13,16 @@
 
 .bodytabla{
     background-color: #0c3e11;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     text-align: center;
+}
+
+.bodyFormulario{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Helvetica;
 }
 
 #imagenes{
@@ -178,7 +186,7 @@ h2{
     text-align: center;
     color: white;
     font-family: "Bad";
-    font-size: 14px;
+    font-size: 30px;
 }
 
 h3{
